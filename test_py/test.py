@@ -1,2 +1,3 @@
-print('hello python')
-print('test')
+·import json
+for i  in range(1,100,2):
+    print(i)

@@ -5,6 +5,17 @@
     "version": "0.2.0",
  
     "configurations": [  
+        {
+            "name": "Chrome Debugger",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceRoot}/test_html/index.html", 
+            "runtimeExecutable": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", 
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}/test_html", 
+            "userDataDir":"C:\\YL\\Project\\tempdata",
+            "port":6688
+   },
  {
      "name": ".NET Core Launch (console)",
      "type": "coreclr",
