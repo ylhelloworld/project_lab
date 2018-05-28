@@ -149,12 +149,6 @@ gulp.task("concat_vendors_fonts",function(){
                 "../src/vendors/line-awesome/fonts/**" ,
                 "../src/vendors/metronic/fonts/**" 
             ]) .pipe(gulp.dest('../dist/assets/vendors/fonts'));
-    // gulp.src(["node_modules/summernote/dist/font/**" ]) .pipe(gulp.dest('../dist/assets/vendors/fonts/summernote'));
-    // gulp.src([ "node_modules/socicon/font/**" ]) .pipe(gulp.dest('../dist/assets/vendors/fonts/socicon'));
-    // gulp.src([ "node_modules/font-awesome/fonts/**"  ]) .pipe(gulp.dest('../dist/assets/vendors/fonts/font-awesome'));
-    // gulp.src([ "../src/vendors/flaticon/fonts/**" ]) .pipe(gulp.dest('../dist/assets/vendors/fonts/flaticon'));
-    // gulp.src([  "../src/vendors/line-awesome/fonts/**" ]) .pipe(gulp.dest('../dist/assets/vendors/fonts/line-awesome'));
-    // gulp.src([ "../src/vendors/metronic/fonts/**" ]) .pipe(gulp.dest('../dist/assets/vendors/fonts/metronic'));
 })
 
 
