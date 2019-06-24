@@ -1,9 +1,9 @@
 from pymongo import MongoClient
 print('start.......')
 
-client=MongoClient('localhost',27017)
+client=MongoClient('mongodb://yang:yang#68@106.12.7.235:27017/admin')
 #db=client['test-database']
-db=client.db1
+db=client.test
 #collection=db['test-colleciton']
 collection=db.test
 
