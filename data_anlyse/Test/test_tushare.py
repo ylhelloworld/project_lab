@@ -1,6 +1,6 @@
 import tushare as ts
-print("start")
-df = ts.get_tick_data('600848',date='2014-01-09')
-result=df.head(10)
-print(result)
-print("end")
+import pandas  as pd
+df = ts.get_tick_data('000725',date='2019-02-25',src='tt')
+ts.get_balance_sheet()
+ts.get_apis()
+print(df)
