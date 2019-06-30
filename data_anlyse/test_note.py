@@ -1,6 +1,9 @@
 #from Helper.mongo_helper import MongoDocHelper
 import helper.mongo
 import time
+import torch 
+
+print (torch)
 #import tushare as ts
 mongo=helper.mongo.MongoDocHelper('test','test')
 print(mongo.db)
